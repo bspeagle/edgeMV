@@ -1,0 +1,19 @@
+Build and install OpenCV
+______________________________________________________________________________
+
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+    -D BUILD_opencv_python2=OFF \
+    -D BUILD_opencv_python3=ON \
+    -D HAVE_opencv_python3=ON \
+    -D WITH_GSTREAMER=OFF \
+    -D WITH_FFMPEG=ON \
+    -D OPENCV_SKIP_PYTHON_LOADER=ON ..
+        
+make -j4
+sudo make install
+
+-Symlink-
+⁨cd /usr⁩/⁨local⁩/⁨lib⁩/⁨python3.7⁩/⁨site-packages⁩/
+ln -s /usr⁩/⁨local⁩/⁨lib⁩/⁨python3.7⁩/⁨site-packages⁩/⁨cv2⁩/⁨python-3.7⁩/cv2.so cv2.so

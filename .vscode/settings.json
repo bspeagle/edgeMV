@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "cSpell.words": [
+        "imread",
+        "imwrite",
+        "ndarray",
+        "workdir"
+    ]
+}

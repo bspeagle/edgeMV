@@ -1,0 +1,8 @@
+balena os configure /Users/brian.speagle/Downloads/balenaOS.img \
+--app edgeMV \
+--config ./os/config.json \
+--config-network=wifi \
+--config-wifi-ssid="blah" \
+--config-wifi-key=blah
+
+balena os initialize /Users/brian.speagle/Downloads/balenaOS.img --type 'raspberry-pi'

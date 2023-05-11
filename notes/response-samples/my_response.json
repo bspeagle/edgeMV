@@ -1,0 +1,94 @@
+[
+    {
+        "BoundingBox": {
+            "Width": 0.04948333650827408,
+            "Height": 0.1353299617767334,
+            "Left": 0.2585906684398651,
+            "Top": 0.36219629645347595
+        },
+        "Age": 56.5,
+        "Gender": "Male",
+        "Beard": True,
+        "Emotions": [
+            {
+                "Type": "ANGRY",
+                "Confidence": 49.50227355957031
+            },
+            {
+                "Type": "DISGUSTED",
+                "Confidence": 49.500648498535156
+            },
+            {
+                "Type": "FEAR",
+                "Confidence": 49.50044250488281
+            },
+            {
+                "Type": "CALM",
+                "Confidence": 50.47283935546875
+            },
+            {
+                "Type": "SAD",
+                "Confidence": 49.51752853393555
+            },
+            {
+                "Type": "SURPRISED",
+                "Confidence": 49.504737854003906
+            },
+            {
+                "Type": "CONFUSED",
+                "Confidence": 49.5013542175293
+            },
+            {
+                "Type": "HAPPY",
+                "Confidence": 49.500179290771484
+            }
+        ],
+        "Confidence": 99.99
+    },
+    {
+        "BoundingBox": {
+            "Width": 0.033578719943761826,
+            "Height": 0.0848827138543129,
+            "Left": 0.5547608733177185,
+            "Top": 0.4010518193244934
+        },
+        "Age": 5.5,
+        "Gender": "Female",
+        "Beard": False,
+        "Emotions": [
+            {
+                "Type": "CALM",
+                "Confidence": 49.61361312866211
+            },
+            {
+                "Type": "DISGUSTED",
+                "Confidence": 49.52085494995117
+            },
+            {
+                "Type": "SURPRISED",
+                "Confidence": 49.51961898803711
+            },
+            {
+                "Type": "ANGRY",
+                "Confidence": 49.533660888671875
+            },
+            {
+                "Type": "HAPPY",
+                "Confidence": 49.513484954833984
+            },
+            {
+                "Type": "SAD",
+                "Confidence": 50.22123336791992
+            },
+            {
+                "Type": "CONFUSED",
+                "Confidence": 49.50746536254883
+            },
+            {
+                "Type": "FEAR",
+                "Confidence": 49.570068359375
+            }
+        ],
+        "Confidence": 96.63
+    }
+]

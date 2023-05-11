@@ -1,0 +1,25 @@
+[
+    {
+        "cam_data": [
+            {
+                "name": "dining_room",
+                "url": "lc3933.myfoscam.org",
+                "port": 6966,
+                "protocol": "rtsp"
+            },
+            {
+                "name": "down_stairs",
+                "url": "lr7124.myfoscam.org",
+                "port": 6969,
+                "protocol": "rtsp"
+            }
+        ],
+        "system_data": [
+            {
+                "endpoint": "videoMain",
+                "username": "tiggergus",
+                "password": "M1n!d0nk"
+            }
+        ]
+    }
+]

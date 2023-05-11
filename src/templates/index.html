@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prepare to be amazed... Cereal!</title>
+        <meta name="description" content="What's it to you?">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .stream {
+                text-align: center;
+                object-fit: cover;
+            }
+            .stream_container {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 25%;
+                height: 25%;
+                display: inline-block;
+                background-color: black;
+                border-color: gray;
+                border-style: solid;
+                border-width: 10px;
+                border-radius: 20px;
+            }
+            body {
+                background-image: url('../static/images/matrix.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="stream_container">
+            <img class="stream" src="{{ url_for('video_feed') }}">
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

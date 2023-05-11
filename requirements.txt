@@ -1,0 +1,11 @@
+python-dotenv
+boto3
+awscli
+Pillow
+imutils
+numpy
+flask
+ray
+pymongo
+mongo-queue-service
+asyncio

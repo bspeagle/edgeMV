@@ -1,0 +1,6 @@
+.gitignore
+deploy_aws
+test.py
+os
+notes
+.pylintrc

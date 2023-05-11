@@ -1,0 +1,9 @@
+-- Config --
+PROTOCOL: rtsp://username:pwd@IP:port/videoMain
+HOST: blah.myfoscam.org
+PORT: 6969
+U: blahblahblah
+P: blahpassword
+
+-- Final --
+rtsp://blah:blah@blah.myfoscam.org:6969/videoMain
